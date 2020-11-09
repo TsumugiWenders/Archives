@@ -1,0 +1,2 @@
+# TxtableAutoWrite
+自动填写使用腾讯文档收集的防疫每日信息表
