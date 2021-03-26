@@ -26,9 +26,9 @@ if __name__ == '__main__':
         os.makedirs('IMG')
     start = 300000
     #end = 600000
-    end = 300020
+    end = 9999999999999
     for i in range(start,end+1):
-        url = "http://konachan.net/post/show/"+str(i)
+        url = "https://konachan.net/post/show/"+str(i)
         html = requests.get(url).text
         soup = BeautifulSoup(html, 'html.parser')
         for img in soup.find_all('img', class_="image"):
